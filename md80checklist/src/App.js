@@ -8,6 +8,8 @@ import EditUser from './users/EditUser';
 import ViewUser from './users/ViewUser';
 import NormalChecklist from './pages/NormalChecklist';
 import Home from './pages/Home/Home';
+import AddBeforeStart from './BeforeStart/AddBeforeStartItem';
+import EditBeforeStart from './BeforeStart/EditBeforeStartItem';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
           <Route exact path="/createUser" element={<AddUser/>}/>
           <Route exact path="/editUser/:id" element={<EditUser/>}/>
           <Route exact path='/viewUser/:id' element={<ViewUser/>}/>
+          <Route exact path='/addItem' element={<AddBeforeStart/>}/>
+          <Route exact path='/editItem/:id' element={<EditBeforeStart/>}/>
         </Routes>
       </BrowserRouter>
       
