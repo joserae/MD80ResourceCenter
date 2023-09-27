@@ -9,6 +9,7 @@ export default function Home(){
                 <img src={md80Image} className="img-fluid" alt="MD-80"></img>
                 <div className="row">
                     <h3>On the navigation bar, you will be able to see all options available.</h3>
+                    <p><a href="http://www.avjk5022.com/avjk5022/public/media/docs/t%C3%A9cnico/200902/Mcdonnell_Md80_Flight_Manual.pdf" target="_blank" rel="noreferrer">MD 80 Flight Manual in PDF</a></p>
                 </div>
                 <div className="p-5 text-center bg-body-tertiary">
                     <h2>Plan your flight:</h2>

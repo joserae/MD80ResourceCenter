@@ -1,0 +1,158 @@
+{
+    "altitude" :{
+        "id": "altitude",
+        "name": "Altitude",
+        "items": [
+            ["Maximum Operating Altitude", "FL370"], 
+            ["Min Altitud for AP Engage", "500FT AGL"], 
+            ["AP must be off at", "50FT below MDA, DA, DH or AGL"]
+        ]
+    },
+    "windComponent":{
+        "id": "windComponent",
+        "name": "Wind Component",
+        "items": [
+            ["Headwind component for takeoff and landing", "50kt"], 
+            ["Tailwind component for takeoff and landing", "10kt"], 
+            ["Demonstrated Crosswind component for takeoff and landing (wet and dry)", "30kt"],
+            ["Demonstrated Crosswind component Rudder Manual", "12kt"],
+            ["Demonstrated Crosswind component restricted rudder for landing", "12kt"],
+            ["Demonstrated Crosswind component Braking reported poor", "10kt"],
+            ["Operations with braking action reported as NIL", "Not Approved"]
+        ]
+    },
+    "speeds":{
+        "id": "speeds",
+        "name": "Speeds",
+        "items": [
+            ["General Speed limitation", "Do Not exceed the barber pole"], 
+            ["VMO/MMO", "340KIAS/.84MACH"], 
+            ["Turbulent Air penetration", "285KIAS or MACH .79"],
+            ["VSpeed brakes extended", "220 KIAS"],
+            ["VGear extended", "300KIAS or .70MACH"],
+            ["Vgear Retraction", "250KIAS"],
+            ["Operations with braking action reported as NIL", "Not Approved"]
+        ],
+        "warnings": [
+            "DO NOT takeoff or land on a runway unless approved aircraft performance data available by G4"
+        ]
+    },
+    "flaps":{
+        "id": "flaps",
+        "name": "Flap/Slat placards",
+        "items": [
+            ["Slats Extended (mid)/Flaps 0°", "280 KIAS or .57 MACH*"], 
+            ["11° (slats mid)", "280 KIAS or .57 MACH*"], 
+            ["15° (slats full)", "240 KIAS or .57 MACH"],
+            ["28° (slats full)", "200 KIAS or .57 MACH"],
+            ["40° (slats full)", "195 KIAS or .57 MACH"],
+            ["Vgear Retraction", "250KIAS"],
+            ["Operations with braking action reported as NIL", "Not Approved"]
+        ],
+        "warnings": [
+            "*If the AUTO SLAT FAIL, limit speed for slat ext. is 240 Kt", "Only use speedbrakes with Flaps 0°"
+        ]
+    },
+    "fuel":{
+        "id": "fuel",
+        "name": "Fuel limitations",
+        "items":[
+            ["Min Fuel for Dispatch", "4,000 lbs in each main tank"], 
+            ["Min fuel for Go-Around", "500 lbs in each main tank"], 
+            ["Max permissible imbalance", "1,500 lbs"],
+            ["Max Permissible Aux. Tank imbalance (does not apply to ballast fuel loads)", "400 lbs"],
+            ["Wing tanks (combined)", "18,200 lbs"],
+            ["Center tank", "20,600 lbs"],
+            ["Forward & Aux. Tanks", "3,800 lbs each"],
+            ["total fuel loading for the aircraft", "38,000 lbs (46,400 lbs with aux tanks)"]
+        ]
+    },
+    "weights":{
+        "id": "weights",
+        "name": "Weights",
+        "items":[
+            ["Max Taxi Weight", "161000"], 
+            ["MTOW", "160000"], 
+            ["MLW", "139500"],
+            ["MZFW", "122000"]
+        ]
+    },
+    "electric":{
+        "id": "electric",
+        "name": "Electric",
+        "items":[
+            ["Battery Voltage - Min (no load)", "25 VDC"], 
+            ["Battery Voltage - Min (emergency power switch ON)", "25VDC"], 
+            ["Battery Voltage - With charger powered and battery switch ON", "31 +/- 6 VDC"],
+            ["Battery Amperage - Max Charging-steady mode (to the left)", "65Amps"],
+            ["Battery Amperage - Charging-pulse mode", "0-40 Amps"],
+            ["Battery Amperage - Max discharging (to the right) with emergency power swtich ON", "50 Amps"],
+            ["External power source-Voltage", "115 +/- 8 VAC"],
+            ["External power source-Frequency", "400 +/- 20 CPS"],
+            ["DC Power-Voltage (L&R) DC Buses", "26 +/- 4 VDC"], 
+            ["DC Power-TR Load - Max Continuous", "1.0"], 
+            ["DC Power-TR Load - Max difference between two load meters powering the same bus", ".3"],
+            ["DC Power-TR Load - Indications on all load meters", "some"],
+            ["AC Power Voltage", "115 +/- 8 VAC"],
+            ["AC Power Frequency", "400 +/- 20 CPS"],
+            ["AC Power-Eninge Generator load Peak", "Over 1.5 for 5 seconds"],
+            ["AC Power-Engine Generator load maximum", "1.5 for 5 minutes"],
+            ["AC Power-Engine Generator load Maximum continuous", "1.0"],
+            ["AC Power-APU Generator load Max Continuous-Ground", "1.25"],
+            ["AC Power-APU Generator load Max Continuous-Flight-below 25,000 feet MSL", "1.0"],
+            ["AC Power-APU Generator load Max continuous-Flight-25,000 feet MSL and above", ".7"]
+        ],
+        "warnings":[
+            "Takeoff is prohibited if the battery charging rate is greater than 20 Amps"
+        ]
+    },
+    "engine":{
+        "id": "engine",
+        "name": "Engine limitations",
+        "items":[
+            ["Max residual ENGINE EGT before moving fuel lever", "100°C"], 
+            ["Starter duty cycle", "90 seconds ON, 5 Minutes 0FF and 30 Seconds ON, 5 minutes OFF"], 
+            ["Oil Quantity - normal to full", "12 to 16 quarts"],
+            ["Oil Quantity - min indication", "8 quarts"],
+            ["thrust reverse power limits - Normal dry runway max reverse thrust", "1.6 EPR"],
+            ["thrust reverse power limits - Wet or slippery runway max reverse thrust power", "1.3 EPR"]
+        ],
+        "warnings":[
+            "Engines shut down for periods greater than 2 hours must be warmed up at normal taxi thrust for a minimum of 5 minutes"
+        ]
+    },
+    "antiIce":{
+        "id": "antiIce",
+        "name": "Anti-ice",
+        "items":[
+            ["Engine anti-ice system must be ON", "For taxi/takeoff if visble moisture is present or anticipated & Ambient air temp is below 6°C"], 
+            ["Engine anti-ice system must be ON", "Temperature/dewpoint spread of 3°C or less"], 
+            ["Min Pressure of Pneumatic system with Airfoil ice protection ON", "Top of yellow arc (20 PSI)"]
+        ],
+        "warnings": [
+            "DO NOT use airfoil ice protection above 10°C.", "Both Engine and Airfoil Ice protection must be used during flight when RAT is reading +5°C and -15°C and airframe icing conditions are anticipated or encountered following departure"
+        ]
+    },
+    "apu":{
+        "id": "apu",
+        "name": "APU limitations",
+        "items":[
+            ["Max continuous APU EGT", "Base of yellow arc"], 
+            ["Max residual ENGINE EGT before moving fuel lever", "100°C"]
+        ],
+        "warnings": [
+            "APU Air switch must be off for all inflight operations."
+        ]
+    },
+    "miscelaneous":{
+        "id": "miscelaneous",
+        "name": "Miscelaneous",
+        "items":[
+            ["min. hydraulic quantity with flaps retracted", "5 quarts"], 
+            ["Minimum Flight crew Oxygen pressure", "1300 PSI"]
+        ],
+        "warnings": [
+            "Only the RUDDER TRAVEL UNRESTRICTED alert should be illuminated for takeoff in the Annunciator panel."
+        ]
+    }
+}

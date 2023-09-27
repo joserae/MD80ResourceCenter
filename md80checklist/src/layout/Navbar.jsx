@@ -19,7 +19,7 @@ export default function Navbar() {
                             <Link className="nav-link active light" aria-current="page" to='/normalChecklist'>Normal Checklist</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active" href="#">Limitations</a>
+                            <Link className="nav-link active" to="/limitations">Limitations</Link>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link active" aria-current="page" href="#">Emergency Procedures</a>

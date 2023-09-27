@@ -10,6 +10,7 @@ import NormalChecklist from './pages/NormalChecklist';
 import Home from './pages/Home/Home';
 import AddBeforeStart from './BeforeStart/AddBeforeStartItem';
 import EditBeforeStart from './BeforeStart/EditBeforeStartItem';
+import Limitations from './pages/Limitations';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route exact path='/viewUser/:id' element={<ViewUser/>}/>
           <Route exact path='/addItem' element={<AddBeforeStart/>}/>
           <Route exact path='/editItem/:id' element={<EditBeforeStart/>}/>
+          <Route exact path="/limitations" element={<Limitations/>}/>
         </Routes>
       </BrowserRouter>
       
